@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4b94cc25-dc4e-4733-8c4a-4548bc1907e8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5013/gitteam/services/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="de1efab7-df09-4dcc-ad76-fd464c849978" SourceId="1" SourceUrl="http://producao_07.tec-softinformatica.com.br.local:5013/gitteam/services/?xsd=xsd0" />
+    <MetadataFile FileName="CommandGitService.wsdl" MetadataType="Wsdl" ID="91ec6198-dcd7-4b2d-919c-451b5f239027" SourceId="1" SourceUrl="http://producao_07.tec-softinformatica.com.br.local:5013/gitteam/services/?wsdl" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="e02fd4bb-89ab-4e6a-9ec6-4fe964b32a84" SourceId="1" SourceUrl="http://producao_07.tec-softinformatica.com.br.local:5013/gitteam/services/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="4468d89f-bc57-45ca-8003-0cd1985b4e60" SourceId="1" SourceUrl="http://producao_07.tec-softinformatica.com.br.local:5013/gitteam/services/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
